@@ -1,0 +1,13 @@
+To Access This Project then follow this steps
+Step 1 : pip3 Install httpie
+For GET Oprations
+Step 2 : http <urls> 'Authorization:Token <your token key>
+For Example:- http http://127.0.0.1:8000/studentapi//'Authentication:Token <your token key>'
+
+For POST Oprations
+Step 3 : http -f POST <urls> <your data for insertion> 'Authentication:Token <your token key>'
+For Example:- http -f POST http://127.0.0.1:8000/studentapi// name=Rajnish roll=101 city=Surat 'Authentication:Token <your token key>'
+
+For DELETE Oprations
+Step 4 : http DELETE <urls>/<id>/ 'Authorization:Token <your token key>
+For Example:- http DELETE http://127.0.0.1:8000/studentapi//1/'Authentication:Token <your token key>'
